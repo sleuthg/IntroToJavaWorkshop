@@ -2,8 +2,15 @@ package day3;
 
 import java.io.IOException;
 
+import javax.swing.JOptionPane;
+
 public class StephenHawking {
 
+	public static void main(String[] args) {
+		String sentence = JOptionPane.showInputDialog("What would you like me to say?");
+		speak(sentence);
+	}
+	
 	// 1. make a main method and put steps 2, 3 & 4 inside it
 	// 2. ask the user for a sentence
 	// 3. call the speak method below and send it the sentence
